@@ -1,9 +1,10 @@
 package org.vaadin.inputmask.client;
 
+import com.vaadin.shared.AbstractComponentState;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Definition {
+public class Definition extends AbstractComponentState {
 	private String maskSymbol;
 	private String validator;
 	private String placeholder;

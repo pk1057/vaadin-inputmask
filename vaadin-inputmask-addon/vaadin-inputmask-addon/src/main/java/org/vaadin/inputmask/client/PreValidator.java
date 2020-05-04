@@ -1,6 +1,8 @@
 package org.vaadin.inputmask.client;
 
-public class PreValidator {
+import com.vaadin.shared.AbstractComponentState;
+
+public class PreValidator extends AbstractComponentState {
 	private String validator;
 	private int cardinality = 1;
 	
